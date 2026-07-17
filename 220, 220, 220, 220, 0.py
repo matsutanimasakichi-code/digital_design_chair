@@ -186,7 +186,7 @@ def create_hyperboloid_curved_chair_with_tensegritiy_slits():
     # ==========================================
     if show_membrane:
         membrane_lines = []
-        # ご提示いただいた編み込みスキップ設定の移植
+        # 座面編み込みスキップ設定
         threads_config = [{"skip": 8}, {"skip": 7}, {"skip": 9}, {"skip": 6}]
         
         for config in threads_config:
